@@ -55,15 +55,6 @@ fplot(yfit)
 xlabel('X')
 ylabel('Y')
 title('Least Square Error plot')
-
-%xaxismin=min(xarr)
-%xaxismax=max(xarr)
-%yaxismin=min(min(yarr),subs(yfit,(xarr(yarr==min(yarr)))))
-%yaxismax=max(max(yarr),subs(yfit,(xarr(yarr==max(yarr)))))
-
-%axis([xaxismin xaxismax yaxismin yaxismax])
-%axis([-1 2 0 14])
-
 grid on
 
 
